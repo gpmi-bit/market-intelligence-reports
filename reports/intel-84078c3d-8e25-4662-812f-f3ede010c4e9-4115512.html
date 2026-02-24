@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Intelligence Briefing | Valued Client</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --bg: #0f172a;
+            --surface: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        @media (min-width: 1024px) { .container { flex-direction: row; } }
+
+        /* HEADER / SIDEBAR */
+        .sidebar {
+            background: #0f172a;
+            color: white;
+            padding: 30px 20px 50px 20px;
+            flex: 0 0 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .logo { 
+            font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; 
+            color: #818cf8; letter-spacing: 1.5px; text-transform: uppercase;
+        }
+
+        .metadata-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        @media (min-width: 1024px) { .metadata-grid { grid-template-columns: 1fr; } }
+
+        .meta-item .label { font-size: 9px; text-transform: uppercase; color: #94a3b8; letter-spacing: 1px; margin-bottom: 2px; display: block; }
+        .meta-item .value { font-size: 13px; font-weight: 600; color: #f1f5f9; }
+
+        /* CONTENT CARD */
+        .content-area {
+            background: var(--surface);
+            flex: 1;
+            padding: 35px 20px;
+            border-radius: 30px 30px 0 0; 
+            margin-top: -30px; 
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.3);
+        }
+
+        @media (min-width: 1024px) {
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 26px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; letter-spacing: -0.03em; line-height: 1.1; }
+
+        /* AI CONTENT RE-STYLING */
+        .ai-content h2 { 
+            font-family: 'Plus Jakarta Sans'; font-size: 11px; text-transform: uppercase; 
+            letter-spacing: 1.5px; color: var(--primary); background: #f5f3ff;
+            display: inline-block; padding: 5px 12px; border-radius: 6px; margin-top: 30px;
+        }
+
+        .ai-content h3 { font-size: 18px; margin: 20px 0 10px 0; color: #0f172a; font-weight: 700; }
+        
+        /* News Stories as Cards */
+        .ai-content ul { padding: 0; list-style: none; }
+        .ai-content li { 
+            background: #f8fafc; border: 1px solid #f1f5f9; padding: 18px; 
+            border-radius: 16px; margin-bottom: 15px; font-size: 15px;
+        }
+
+        /* Large Touch-Friendly Buttons for Links */
+        .ai-content a {
+            display: flex; align-items: center; justify-content: center;
+            margin-top: 15px; padding: 12px; background: #ffffff;
+            border: 1px solid #e2e8f0; border-radius: 10px; color: var(--primary);
+            text-decoration: none; font-weight: 700; font-size: 13px; width: 100%;
+        }
+
+        footer { margin-top: 50px; text-align: center; font-size: 11px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item">
+                    <span class="label">Organization</span>
+                    <div class="value">Valued Client</div>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Report Date</span>
+                    <div class="value">Feb 24, 2026</div>
+                </div>
+            </div>
+            <div class="meta-item">
+                <span class="label">Classification</span>
+                <div class="value" style="color: #fbbf24;">● SENSITIVE / PROPRIETARY</div>
+            </div>
+        </header>
+
+        <main class="content-area">
+            <h1>Intelligence Briefing</h1>
+            <div class="ai-content">
+                <h2 id="executivesummary">EXECUTIVE SUMMARY</h2>
+<p>The battery industry is currently navigating a period of high financial volatility and strategic recalibration. <strong>Energizer Holdings</strong> is facing credit risk as S&amp;P Global Ratings shifted its outlook to Negative due to high leverage and weakening organic volumes, while <strong>Panasonic</strong> is pivoting its massive North American production capacity toward data center energy storage to offset a cooling electric vehicle (EV) market. Amidst these pressures, <strong>Duracell</strong> is aggressively centralizing its global back-office operations in Costa Rica and diversifying into EV charging infrastructure to shore up long-term margins.</p>
+<h2 id="keyintelligence">KEY INTELLIGENCE</h2>
+<h3 id="financialcreditrisks">Financial &amp; Credit Risks</h3>
+<ul>
+<li><strong>Energizer Outlook Downgraded to Negative:</strong> S&amp;P Global Ratings revised <strong>Energizer’s</strong> outlook from stable to negative, citing adjusted leverage of 6.3x, which exceeds the downgrade threshold. The company faces $60–$70 million in unmitigated tariff costs and ongoing organic volume declines in its battery and auto care segments. <a href="https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3520403">Read Source</a></li>
+<li><strong>Panasonic Energy Segment Profit Declines:</strong> <strong>Panasonic Holdings</strong> reported a 3.5% drop in quarterly operating income for its Energy segment. A cooling North American EV market led the company to cut its full-year operating profit forecast by 9.4% to 290 billion yen, despite growth in data center storage demand. <a href="https://news.panasonic.com/global/stories/18415">Read Source</a></li>
+<li><strong>Panasonic Energy India Reports Loss:</strong> The Indian subsidiary of <strong>Panasonic</strong> reported a sharp deterioration in financial health, moving from a profit in late 2024 to a net loss of Rs 1.00 crore in the quarter ending December 2025, driven by margin compression and revenue softness. <a href="https://www.moneycontrol.com/news/business/earnings/panasonic-energ-standalone-december-2025-net-sales-at-rs-71-72-crore-down-2-26-y-o-y-13834026.html">Read Source</a></li>
+</ul>
+<h3 id="operationalstrategyinfrastructure">Operational Strategy &amp; Infrastructure</h3>
+<ul>
+<li><strong>Duracell Centralizes Global Services in Costa Rica:</strong> <strong>Duracell</strong> is establishing a Global Business Service Center in Escazú Village to centralize finance, HR, and IT functions. The hub will support operations across North America, China, and Belgium, scaling to 130+ employees by late 2026. <a href="https://www.cinde.org/en/essential-news/duracell-selects-costa-rica-for-its-new-global-business-service-center">Read Source</a></li>
+<li><strong>Panasonic Pivots Kansas Plant to Data Centers:</strong> As EV demand slows, <strong>Panasonic</strong> is evaluating the conversion of parts of its $4 billion De Soto facility to produce data center batteries. The plant currently produces 500,000 cells daily but remains well below full capacity. <a href="https://www.bizjournals.com/kansascity/news/2026/02/19/panasonic-battery-production-hiring-de-soto-ev.html">Read Source</a></li>
+<li><strong>Duracell Expands EV Charging Network:</strong> <strong>Duracell E-Charge</strong> launched its second ultra-rapid EV charging hub in the UK (Newcastle). This is part of a £200 million, decade-long investment to transition the brand into a broader energy solutions provider. <a href="https://www.mobilityplaza.org/news/43998">Read Source</a></li>
+</ul>
+<h3 id="innovationlegal">Innovation &amp; Legal</h3>
+<ul>
+<li><strong>Standardization of Battery-Free Sensing:</strong> <strong>Panasonic Holdings</strong> and partners successfully led the approval of ISO/IEC 18000-65. This new international standard enables wireless sensing using battery-free tags, targeting infrastructure inspection and predictive maintenance markets. <a href="https://news.panasonic.com/global/press/en260216-3">Read Source</a></li>
+<li><strong>Energizer Legal Dispute Escalates:</strong> A California battery company, <strong>Portable Power</strong>, has filed to dismiss <strong>Energizer’s</strong> trade secret theft counterclaims, characterizing them as "meritless" tactics in a broader legal battle involving allegations of price-fixing collusion between Energizer and Walmart. <a href="https://www.law360.com/energy/articles/2442041/battery-co-calls-energizer-s-trade-secret-claims-meritless-">Read Source</a></li>
+<li><strong>Executive Leadership Shift at Clarios:</strong> <strong>Clarios</strong> (owner of the <strong>Varta</strong> brand) appointed Prakash GN as Sales Director for the Middle East to capture rising demand for advanced low-voltage and digitized battery technologies in challenging climates. <a href="https://www.zawya.com/en/press-release/government-news/clarios-strengthens-middle-east-presence-with-appointment-of-prakash-gn-as-sales-director-middle-east-iod0moz0">Read Source</a></li>
+</ul>
+<h2 id="actionitems">ACTION ITEMS</h2>
+<ol>
+<li><strong>Monitor Energizer’s Deleveraging Progress:</strong> Track <strong>Energizer’s</strong> "Project Momentum" supply chain optimization. Their negative credit outlook suggests potential for aggressive pricing or inventory liquidation to improve cash flow, which may impact regional market share.</li>
+<li><strong>Evaluate Threat of Battery-Free Standards:</strong> Review the adoption of the new <strong>ISO/IEC 18000-65</strong> standard. Assess the potential for battery-free sensors to displace traditional low-power battery sales in the industrial IoT and infrastructure sectors.</li>
+<li><strong>Benchmark Against Duracell’s Hub Strategy:</strong> Analyze the cost-saving potential of centralizing global business services (GBS). <strong>Duracell’s</strong> move to Costa Rica indicates a shift toward aggressive back-office cost reduction to protect margins against rising input costs and tariffs.</li>
+</ol>
+            </div>
+            <footer>
+                CONFIDENTIAL • Generated by Project Longan
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
