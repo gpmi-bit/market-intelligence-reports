@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Feb 22 - Feb 28, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">Executive Summary</h2>
+<p>The consumer battery landscape is currently defined by aggressive structural realignments and significant financial pressure on legacy leaders. <strong>Panasonic</strong> is executing a massive pivot away from low-margin hardware manufacturing—divesting its TV operations and cutting 12,000 jobs—to focus on high-growth energy sectors, evidenced by its new North American anode supply deal. Simultaneously, <strong>Energizer</strong> faces a credit outlook downgrade to "Negative" as it grapples with high leverage and $70 million in anticipated tariff headwinds, even as it expands its brand footprint in Japan through a new licensing agreement with <strong>FDK</strong>.</p>
+<h2 id="keyintelligence">Key Intelligence</h2>
+<h3 id="panasonicholdings"><strong>Panasonic Holdings</strong></h3>
+<ul>
+<li><strong>North American Supply Chain Consolidation:</strong> <strong>Nouveau Monde Graphite (NMG)</strong> completed the acquisition of a 143,000-m² site in Québec to build a Battery Material Plant. This facility is dedicated to fulfilling a 13,000-tonne-per-annum active anode material offtake agreement for <strong>Panasonic Energy’s</strong> US gigafactories. <a href="https://www.businesswire.com/news/home/20260225476582/en/NMG-Completes-Acquisition-of-Brownfield-Site-in-Bcancour-to-Deploy-its-Active-Anode-Material-Production-for-Panasonic-Energy">Read Source</a></li>
+<li><strong>Strategic Exit from TV Manufacturing:</strong> <strong>Panasonic</strong> has formally transferred its North American and European television sales and manufacturing operations to Chinese appliance giant <strong>Skyworth Group</strong>, effective April 2026. This move, coupled with a global workforce reduction of 12,000 employees, marks a definitive shift toward automotive and industrial battery segments. <a href="https://www.caixinglobal.com/2026-02-25/skyworth-taps-western-tv-markets-with-panasonic-tie-up-102416923.html">Read Source</a></li>
+<li><strong>European Industrial Expansion:</strong> The company invested €2.6 million to launch a new production line for large-capacity air-to-water heat pumps at its Pilsen, Czech Republic factory, reinforcing its commitment to the European "green" energy transition beyond traditional consumer electronics. <a href="https://www.pv-magazine.com/press-releases/panasonic-launches-european-production-line-for-big-aquarea-heat-pump-range-2/">Read Source</a></li>
+</ul>
+<h3 id="energizerholdings"><strong>Energizer Holdings</strong></h3>
+<ul>
+<li><strong>Credit Outlook Downgrade:</strong> <strong>S&P Global Ratings</strong> revised <strong>Energizer’s</strong> outlook to "Negative" from "Stable," citing adjusted leverage of 6.3x. The company faces a difficult 2026 with projected tariff costs of $60–$70 million and restructuring charges of $60–$75 million amid declining organic volumes in batteries and auto care. <a href="https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3520403">Read Source</a></li>
+<li><strong>Japanese Brand Licensing Deal:</strong> <strong>FDK Corporation</strong> has signed a brand license agreement to manufacture and sell <strong>Energizer</strong>, <strong>Energizer Max</strong>, and <strong>Eveready</strong> products in the Japanese domestic market, replacing its reliance on the <strong>Fujitsu</strong> brand to capture higher global brand recognition. <a href="https://www.fdk.co.jp/ir/info/pdf/20260225.pdf">Read Source</a></li>
+</ul>
+<h3 id="duracell"><strong>Duracell</strong></h3>
+<ul>
+<li><strong>Global Service Centralization:</strong> <strong>Duracell</strong> inaugurated a new Global Business Service (GBS) Center in San José, Costa Rica. The hub will centralize finance, HR, and IT functions for North and Latin American operations, with plans to grow the headcount to 130 by the end of 2026 to improve operational efficiency. <a href="https://www.cinde.org/en/essential-news/duracell-selects-costa-rica-for-its-new-global-business-service-center">Read Source</a></li>
+<li><strong>High-Visibility Global Marketing:</strong> The brand extended its partnership with <strong>Williams Racing</strong> for the 2026 F1 season, featuring a distinctive "battery-shaped" air intake livery to reinforce premium brand positioning in growth markets like Asia-Pacific. <a href="https://www.famouscampaigns.com/2026/02/duracell-charges-up-williams-with-the-smartest-livery-in-f1/">Read Source</a></li>
+</ul>
+<h3 id="nanfuvarta"><strong>Nanfu & Varta</strong></h3>
+<ul>
+<li><strong>Nanfu Strategic Priorities:</strong> At the Nanping Entrepreneurs Conference, <strong>Nanfu</strong> leadership committed to scaling steel battery casing production to consolidate cost advantages and increased R&amp;D to produce "world-class" alkaline batteries for aggressive overseas expansion. <a href="https://www.163.com/dy/article/KMMGDS7R0519CQ3E.html">Read Source</a></li>
+<li><strong>Varta Specialty Positioning:</strong> <strong>Varta Consumer Batteries</strong> launched a major European marketing campaign ahead of World Hearing Day to promote its German-manufactured, mercury-free hearing aid battery range, emphasizing stable voltage for Bluetooth-enabled devices. <a href="https://www.varta-ag.com/en/about-varta/news-press/details/varta-consumer-batteries-raises-awareness-for-childrens-hearing-health-on-world-hearing-day">Read Source</a></li>
+</ul>
+<h2 id="actionitems">Action Items</h2>
+<ul>
+<li><strong>Monitor Japanese Competitive Shift:</strong> Analyze the impact of <strong>FDK’s</strong> adoption of the <strong>Energizer</strong> brand in Japan; this move likely increases the competitive pressure on other alkaline players in the Asia-Pacific region.</li>
+<li><strong>Evaluate Tariff-Driven Pricing Fluctuations:</strong> Closely track <strong>Energizer’s</strong> pricing adjustments in response to their $70M tariff exposure; their need to protect margins may create a window for market share gains by competitors with more localized or diversified supply chains.</li>
+<li><strong>Benchmarking Operational Efficiency:</strong> Assess <strong>Duracell’s</strong> Costa Rican GBS model for potential back-office cost-saving benchmarks, particularly as <strong>Panasonic</strong> and <strong>Energizer</strong> also aggressively seek to lower SG&amp;A through restructuring.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
