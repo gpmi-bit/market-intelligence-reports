@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Apr 5 - Apr 11, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">EXECUTIVE SUMMARY</h2>
+<p>Today’s intelligence highlights a strategic pivot toward domestic manufacturing and next-generation chemistry circularity. While <strong>Varta</strong> integrates into a federally funded sodium-ion recycling consortium to secure a lead in the post-lithium value chain, <strong>Duracell</strong> is accelerating U.S.-based production of energy storage systems to leverage federal clean energy incentives. Concurrently, <strong>Energizer</strong> faces mounting analyst pressure regarding tariff-related margin erosion, signaling a volatile second half for fiscal 2026.</p>
+<h2 id="keyintelligence">KEY INTELLIGENCE</h2>
+<ul>
+<li><p><strong>Varta Joins Sodium-Ion (SIB) Circular Economy Consortium:</strong> <strong>Varta</strong> has been named as a key battery manufacturing partner in the "SIB:DE" consortium, a €14.5 million project funded by Germany’s BMFTR. The initiative, running through 2029, aims to develop both mechanical and direct recycling routes for sodium-ion batteries, covering the full value chain from electrolyte development to industrial-scale recycling systems. <a href="https://www.electrive.com/2026/04/09/cylib-to-take-part-in-sodium-ion-battery-recycling-project/">Read Source</a></p></li>
+<li><p><strong>Duracell Licensee Expands U.S. Manufacturing for ESS:</strong> <strong>Power Center</strong>, the authorized North American licensee for <strong>Duracell</strong> energy storage systems, has significantly expanded its partnership with <strong>Omega EMS</strong>. The move transitions system integration and final assembly of residential and commercial ESS units to San Jose, California. This shift is designed to meet "domestic content" requirements for federal energy incentives and insulate the supply chain from international logistics volatility. <a href="https://iconnect007.com/article/149528/omega-ems-expands-us-manufacturing-partnership-with-power-center-a-duracell-authorized-licensee-accelerating-domestic-renewable-energy-production/149525/smt">Read Source</a></p></li>
+<li><p><strong>Anfu Technology (Nanfu Parent) Appoints New Chairman:</strong> Following the mandatory retirement of Xia Maoqing, <strong>Anfu Technology</strong> has elected Yu Bin as Chairman and Legal Representative. Yu Bin will also lead the Board’s Strategy and ESG Committee. This transition at the top of China’s leading alkaline manufacturer comes as the parent company navigates its latest phase of international expansion and ESG compliance requirements. <a href="https://finance.eastmoney.com/a/202604103701362516.html">Read Source</a></p></li>
+<li><p><strong>Macro Headwinds Threaten Energizer’s H2 2026 Margins:</strong> UBS has lowered its price target for <strong>Energizer Holdings</strong> by 32%, citing risks that inflation and escalating tariffs will pose a severe threat to earnings in the latter half of the fiscal year. Despite a Q1 earnings beat, the company is grappling with a 300-basis-point margin drag from tariffs, necessitating a rapid supply-chain realignment to achieve its projected sequential gross margin recovery. <a href="https://www.tipranks.com/news/the-fly/energizer-price-target-lowered-to-17-from-25-at-ubs-thefly-news">Read Source</a></p></li>
+<li><p><strong>Panasonic Finalizes Power Tool Divestiture to Makita:</strong> <strong>Panasonic Holdings</strong> has moved into the execution phase of its power tool business exit, establishing a successor company to be absorbed by <strong>Makita</strong> by September 2026. The deal includes the transfer of high-precision torque control and IoT-enabled data management technologies. The divestiture is part of a broader restructuring involving 12,000 total job cuts and a total cost revision to ¥180 billion. <a href="https://finance.yahoo.com/markets/stocks/articles/panasonic-sells-power-tools-makita-131250510.html">Read Source</a></p></li>
+<li><p><strong>Varta Executes Leadership Transition in German Retail Sales:</strong> <strong>Varta Consumer Batteries</strong> appointed Daniel Kronwald as Head of Specialized Trade Sales Germany, effective April 1, 2026. Kronwald succeeds 36-year veteran Andreas Preissler. The transition is aimed at modernizing sales approaches in the DACH (Germany, Austria, Switzerland) region, where <strong>Varta</strong> is defending its retail footprint against increasingly aggressive private-label and primary-battery competitors. <a href="https://www.diyonline.de/d/news/2026/04/07/free/neue-vertriebsleitung-bei-varta.html">Read Source</a></p></li>
+</ul>
+<h2 id="actionitems">ACTION ITEMS</h2>
+<ul>
+<li><strong>Monitor Tariff Exposure:</strong> Conduct a rigorous audit of the primary battery supply chain to quantify exposure to the same tariff-related margin erosion currently impacting <strong>Energizer</strong>. Evaluate if current pricing structures can absorb a 300-basis-point margin drag without losing market share to localized competitors.</li>
+<li><strong>Assess Sodium-Ion Competitiveness:</strong> Monitor the <strong>Varta-led</strong> SIB:DE consortium’s progress in direct recycling. As sodium-ion moves toward commercialization, the ability to offer a "circular" or "green" battery at retail will become a critical differentiator for alkaline-heavy portfolios.</li>
+<li><strong>Evaluate U.S. Manufacturing Logistics:</strong> Analyze the <strong>Duracell/Power Center</strong> move to domestic U.S. assembly. Assess whether shifting assembly for professional-grade portable power or storage units to U.S. soil provides sufficient tax incentive benefits to offset higher domestic labor costs.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
