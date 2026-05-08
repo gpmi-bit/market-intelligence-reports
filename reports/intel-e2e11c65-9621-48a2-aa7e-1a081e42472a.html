@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">May 1 - May 7, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">Executive Summary</h2>
+<p>Global battery market activity is currently defined by a divergence between strong financial restructuring and significant operational/legal risks among tier-one competitors. <strong>Energizer</strong> outperformed earnings expectations through one-time tariff refunds despite organic sales declines, while <strong>Nanfu Battery's</strong> parent reached a market-cap milestone following successful asset restructuring and a 40% surge in overseas growth. Meanwhile, <strong>Duracell</strong> faces heightened institutional risk as a U.S. federal court cleared a major trade-secret lawsuit to proceed to discovery, potentially exposing proprietary lithium-ion technical data.</p>
+<h2 id="keyintelligence">Key Intelligence</h2>
+<h3 id="financialperformancestrategicrestructuring">Financial Performance &amp; Strategic Restructuring</h3>
+<ul>
+<li><strong>Energizer Holdings</strong> reported Q2 2026 adjusted EPS of $0.94, doubling consensus estimates primarily due to a $47.6 million tariff refund; however, organic net sales fell 5.5% amid a cautious consumer environment. <a href="https://finance.yahoo.com/markets/stocks/articles/energizer-q2-earnings-top-estimates-165300066.html">Read Source</a></li>
+<li><strong>Anfutech</strong>, the parent of <strong>Nanfu Battery</strong>, hit its 10% daily limit-up on the Shanghai exchange after reporting a 34.38% increase in 2025 net profit and completing a restructuring that increased its stake in <strong>Nanfu</strong> to 46.02%. <a href="https://m.sohu.com/a/1019320600_122014422">Read Source</a></li>
+<li><strong>FDK Corporation</strong> reported a 39% increase in FY2025 net profit despite a 5.7% revenue decline, while announcing a new "R3" mid-term plan targeting ¥80 billion in sales by FY2029 and a brand licensing agreement with <strong>Energizer</strong>. <a href="https://finance.biggo.com/news/jpx_tdnet_140120260428512823">Read Source</a></li>
+<li><strong>Panasonic Holdings</strong> transferred its TV operations in the U.S. and Europe to <strong>Skyworth</strong> under a long-term strategic deal, further divesting non-core consumer electronics to focus on its energy and automotive segments. <a href="https://www.chinadailyhk.com/hk/article/632998">Read Source</a></li>
+</ul>
+<h3 id="legaloperationalrisk">Legal &amp; Operational Risk</h3>
+<ul>
+<li><strong>Duracell</strong> must face a federal lawsuit filed by <strong>BASF</strong> alleging misappropriation of trade secrets regarding lithium-ion cathode technology after a judge rejected <strong>Duracell’s</strong> motion to dismiss. <a href="https://whbl.com/2026/04/28/berkshires-duracell-must-face-basf-lawsuit-over-battery-secrets-us-judge-rules/">Read Source</a></li>
+<li><strong>Panasonic’s</strong> De Soto, Kansas gigafactory was evacuated on May 5, 2026, following a "thermal event" involving battery materials; separately, reports indicate the plant is currently operating with only 1,400 of a promised 8,000 workers due to cooling EV demand. <a href="https://www.yahoo.com/news/articles/soto-panasonic-plant-evacuated-chemical-163831770.html">Read Source</a> | <a href="https://www.okenergytoday.com/2026/04/where-are-the-ev-jobs/">Read Source</a></li>
+<li><strong>Duracell</strong> listed its 311,000-square-foot Connecticut headquarters for $17 million as it prepares to relocate its North American R&amp;D operations to Atlanta by summer 2026. <a href="https://hartfordbusiness.com/article/former-duracell-hq-in-bethel-listed-for-17m/">Read Source</a></li>
+</ul>
+<h3 id="productinnovationsupplychain">Product Innovation &amp; Supply Chain</h3>
+<ul>
+<li><strong>Energizer</strong> launched the "Ultimate Child Shield" coin lithium battery, featuring a bitter coating and a saliva-activated blue dye to prevent and alert caregivers of accidental ingestion. <a href="https://www.engadget.com/2166624/energizer-releases-coin-lithium-batteries-that-wont-cause-burning-if-accidentally-swallowed/">Read Source</a></li>
+<li><strong>Clarios</strong> (manufacturer of <strong>Varta</strong> automotive batteries) acquired three recycling facilities in Germany and Austria from <strong>Ecobat</strong>, securing a closed-loop lead and polypropylene supply chain ahead of new EU battery regulations. <a href="https://www.autotrade.ie/index.php/clarios-expands-footprint-in-europe-with-acquisition-of-recycling-facilities/79175">Read Source</a></li>
+<li><strong>Varta</strong> joined a €14.5 million German government-funded consortium (SIB:DE) to develop market-ready large-format sodium-ion battery cells and European recycling processes. <a href="https://www.electrive.com/2026/04/09/cylib-to-take-part-in-sodium-ion-battery-recycling-project/">Read Source</a></li>
+</ul>
+<h2 id="actionitems">Action Items</h2>
+<ul>
+<li><strong>Monitor Duracell Discovery Proceedings:</strong> Track the <strong>BASF vs. Duracell</strong> discovery phase for potential disclosures regarding lithium-ion cathode IP that could impact global competitive positioning in the high-performance battery segment.</li>
+<li><strong>Evaluate Safety Features as Market Standard:</strong> Assess the feasibility of integrating ingestion-detection technologies (similar to <strong>Energizer’s</strong> dye-alert) for the coin-cell portfolio to preempt potential regulatory shifts in consumer safety.</li>
+<li><strong>Assess China-Market Leadership Changes:</strong> Brief regional heads on <strong>Panasonic's</strong> executive reshuffle in China and <strong>Anfutech's</strong> aggressive restructuring, which signals heightened domestic and export competition from the <strong>Nanfu</strong> brand.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
