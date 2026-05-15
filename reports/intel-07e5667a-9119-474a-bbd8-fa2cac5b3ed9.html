@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">May 8 - May 14, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">Executive Summary</h2>
+<p>The global battery market is currently experiencing a strategic shift as major players mitigate manufacturing underperformance with high-impact marketing and safety-led product differentiation. While <strong>Panasonic</strong> faces significant operational and profitability hurdles at its core U.S. production facilities, competitors <strong>Duracell</strong> and <strong>Energizer</strong> are aggressively expanding brand equity through global sports partnerships and specialized consumer safety technologies. Financial results from regional suppliers and niche manufacturers like <strong>FDK</strong> indicate a period of intensive cost-rationalization and margin management to offset softening demand in traditional segments.</p>
+<h2 id="keyintelligence">Key Intelligence</h2>
+<ul>
+<li><strong>Panasonic</strong>’s flagship De Soto, Kansas battery facility is facing substantial operational challenges, contributing to a 42% profit decline in the company’s energy unit. The facility recorded a "thermal runaway event" in May 2026 that required a full evacuation, while excessive startup costs and shifting U.S. tariff policies led the division to miss its annual profit targets. <a href="https://www.channelnewsasia.com/business/panasonic-eyes-aggressive-ai-profit-push-battery-unit-misses-target-6115406">Read Source</a></li>
+<li><strong>Duracell</strong> has signed a three-year global partnership with Spain’s <strong>LaLiga</strong>, designating the brand as the "official partner of added time" starting in the 2026-27 season. The agreement places <strong>Duracell</strong> branding on stoppage-time displays and stadium activations, targeting a cumulative annual TV audience of 2.7 billion across 185 countries. <a href="https://www.insideworldfootball.com/2026/05/11/duracell-buys-laligas-added-time/">Read Source</a></li>
+<li><strong>Energizer</strong> launched the "Ultimate Child Shield" lithium coin cells, featuring safety innovations designed to eliminate ingestion burns. The batteries utilize "Color Alert Technology" to dye a child’s mouth blue upon contact with saliva and include a bitter coating to deter swallowing, specifically targeting the high-growth AirTag-compatible battery segment. <a href="https://www.macrumors.com/2026/05/06/energizer-airtag-child-safe-batteries/">Read Source</a></li>
+<li><strong>FDK Corporation</strong> reported its FY2025 financial results (ending March 2026), revealing a 5.7% decline in net sales to ¥59.56 billion. Despite revenue losses in its alkaline and NiMH segments, operating profit rose 19.5% due to aggressive cost-reduction measures and a strategic shift toward lithium-based solutions. <a href="https://finance.biggo.com/news/jpx_tdnet_140120260427511786">Read Source</a></li>
+<li><strong>Panasonic Carbon India</strong> published audited FY2026 results, showing a modest revenue increase to Rs. 674.95 million and a 67% increase in non-current assets. The board recommended a dividend of Rs. 12 per share, indicating a stable performance in the upstream supply of carbon components for dry cell batteries. <a href="https://scanx.trade/stock-market-news/companies/panasonic-carbon-india-co-limited-reports-audited-financial-results-for-fy26-board-recommends-rs-12-per-share-dividend/39624757">Read Source</a></li>
+<li><strong>Energizer Holdings</strong> reported fiscal Q2 2026 results with net sales of $643.3 million, a 3% decline year-over-year. Despite the top-line miss, adjusted EPS doubled estimates due to a $47.6 million tariff refund, though management issued a cautious Q3 outlook citing a "softer macro environment" and shipping delays. <a href="https://www.tradingview.com/news/stockstory:57eb0223a094b:0-the-top-5-analyst-questions-from-energizer-s-q1-earnings-call/">Read Source</a></li>
+</ul>
+<h2 id="actionitems">Action Items</h2>
+<ul>
+<li><strong>Monitor</strong> the competitive impact of "safety-first" product differentiators in the coin-cell market; evaluate if <strong>Energizer</strong>’s "Color Alert" technology sets a new regulatory or consumer standard that requires a technical response.</li>
+<li><strong>Analyze</strong> the marketing ROI of <strong>Duracell</strong>’s <strong>LaLiga</strong> partnership to determine if similar "on-brand" high-visibility sports sponsorships are necessary to protect market share against dominant global incumbents.</li>
+<li><strong>Review</strong> supply chain stability for carbon components following <strong>Panasonic Carbon India</strong>'s asset expansion to ensure upstream costs remain competitive as peers rationalize production.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
