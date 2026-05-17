@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">May 10 - May 16, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">Executive Summary</h2>
+<p>The battery sector is undergoing a decisive pivot away from electric vehicle (EV) volatility toward AI-driven data center infrastructure and high-margin energy services. <strong>Gold Peak (GP Batteries)</strong> has secured significant green financing to scale Nickel Zinc (NiZn) production for the data center market, while <strong>Panasonic</strong> is repurposing manufacturing lines for similar AI-related storage. Concurrently, major players are diversifying into EV charging software and circular economy assets to mitigate softened consumer battery demand.</p>
+<h2 id="keyintelligence">Key Intelligence</h2>
+<h3 id="strategicfinancinginfrastructure">Strategic Financing &amp; Infrastructure</h3>
+<ul>
+<li><strong>Gold Peak Technology Group (GP Batteries)</strong> completed a HK$675 million (USD 86.5 million) green and sustainability-linked loan facility. The 3-year facility, supported by 10 banks, will fund the expansion of rechargeable battery businesses and the newly inaugurated Nickel Zinc (NiZn) manufacturing facility in Dongguan, China. This plant specifically targets uninterruptible power supply (UPS) systems for data centers. <a href="https://en.acnnewswire.com/press-release/english/106986/gold-peak-completes-a-hk$675-million-green-and-sustainability-linked-term-loan-facility">Read Source</a></li>
+<li><strong>Panasonic Energy</strong> has officially postponed mass production of its next-generation <strong>4680 cylindrical EV battery cells</strong> for a second time, citing the absence of confirmed purchase orders from its primary customer, <strong>Tesla</strong>. The cells currently underperform earlier models in energy density (244 Wh/kg vs 269 Wh/kg). <a href="https://asia.nikkei.com/business/automobiles/electric-vehicles/panasonic-ev-battery-production-delayed-again-as-customer-order-stalls">Read Source</a></li>
+<li><strong>Panasonic Holdings</strong> is pivoting its strategy to address AI data center demand, announcing plans to introduce a dedicated data center battery production line at its Kansas, U.S. facility. The company targets ¥130 billion in profit from AI-linked infrastructure by fiscal 2029 to offset EV headwinds. <a href="https://www.channelnewsasia.com/business/panasonic-eyes-aggressive-ai-profit-push-battery-unit-misses-target-6115406">Read Source</a></li>
+</ul>
+<h3 id="marketexpansionbrandlicensing">Market Expansion &amp; Brand Licensing</h3>
+<ul>
+<li><strong>Duracell</strong> has entered a technology partnership with <strong>Driivz</strong> (a <strong>Vontier</strong> company) to provide the software backend for its "Duracell E-Charge" ultra-fast EV charging network in the UK. The network, operated under brand license by <strong>The EV Network</strong>, aims for 100+ sites and 500+ charge points by 2030. <a href="https://chargedevs.com/newswire/duracell-selects-driivz-as-software-provider-for-its-uk-ev-charging-network/">Read Source</a></li>
+<li><strong>Duracell</strong> signed a three-year global sponsorship deal with <strong>LaLiga</strong> to become the "official partner of added time" through the 2028-29 season. Branding will appear on stoppage-time displays and digital integrations globally, leveraging the "lasting longer" brand promise. <a href="https://www.insideworldfootball.com/2026/05/11/duracell-buys-laligas-added-time/">Read Source</a></li>
+</ul>
+<h3 id="operationalleadershipshifts">Operational &amp; Leadership Shifts</h3>
+<ul>
+<li><strong>Fujian Nanping Nanfu Battery</strong> announced a leadership transition, appointing <strong>Yu Bin</strong> as Chairman and legal representative, replacing <strong>Xia Maoqing</strong>. The move is viewed as a strategic mandate from controlling shareholder <strong>CDH Investments</strong> to identify growth drivers beyond the mature alkaline market. <a href="https://news.qq.com/rain/a/20260508A03CW200">Read Source</a></li>
+<li><strong>Clarios (VARTA)</strong> finalized the acquisition of three battery recycling facilities in Germany and Austria. The sites in Freiberg, Braubach, and Arnoldstein are intended to secure lead and polypropylene supplies in compliance with upcoming EU battery regulations. <a href="https://www.cvworkshop.ie/2026/05/clarios-expands-footprint-in-europe-with-acquisition-of-recycling-facilities/">Read Source</a></li>
+<li><strong>Panasonic Energy</strong> faces a federal discrimination lawsuit regarding its $4 billion De Soto, Kansas plant. A former apprentice alleges sexual harassment and retaliation, highlighting potential labor and ESG risks at the flagship facility. <a href="https://johnsoncountypost.com/2026/05/14/worker-sues-panasonic-energy-286374/">Read Source</a></li>
+</ul>
+<h2 id="actionitems">Action Items</h2>
+<ul>
+<li><strong>Monitor NiZn Market Penetration:</strong> Brief the technical teams to track competitor <strong>NiZn</strong> adoption rates in the data center UPS segment, specifically looking for performance benchmarks against lead-acid and lithium alternatives in the Asia-Pacific region.</li>
+<li><strong>Evaluate Sustainable Packaging Standards:</strong> Audit European retail distribution channels following <strong>Energizer</strong> and <strong>GP's</strong> successful transition to paper-based, plastic-free packaging for over 1,000 product lines to ensure compliance with shifting retailer ESG requirements.</li>
+<li><strong>Assess Supply Chain Circularity:</strong> Review current battery recovery and recycling partnerships in Europe to determine if <strong>Clarios'</strong> recent acquisition of German and Austrian recycling assets creates a competitive disadvantage in raw material sourcing or EU regulatory compliance.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
