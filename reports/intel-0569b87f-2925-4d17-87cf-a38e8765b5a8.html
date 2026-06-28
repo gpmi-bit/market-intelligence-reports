@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Jun 21 - Jun 27, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">Executive Summary</h2>
+<p><strong>Gold Peak Technology Group</strong> (GP Batteries) concluded FY2026 with a 2.5% revenue increase to HK$7.02 billion, navigating a significant 18.1% demand slump in the Americas caused by U.S. tariff pressures. While legacy competitors like <strong>Panasonic</strong> and <strong>Duracell</strong> are aggressively diversifying into autonomous vehicle supply chains and residential grid services, <strong>GP</strong> is pivoting toward Nickel-Zinc (NiZn) technology with a new high-capacity facility in Dongguan. Market risks are intensifying in the alkaline segment, highlighted by <strong>Panasonic's</strong> potential plant closure in India due to prohibitive environmental compliance costs and <strong>FDK’s</strong> flagged impairment risks in its NiMH business.</p>
+<h2 id="keyintelligence">Key Intelligence</h2>
+<h3 id="financialperformancecorporatestrategy">Financial Performance &amp; Corporate Strategy</h3>
+<ul>
+<li><strong>Gold Peak (GP Batteries) FY2026 Results:</strong> Group revenue reached HK$7.02 billion, supported by a 10.2% rise in electronics/acoustics. The core Battery Business generated HK$4,866.1 million; however, Americas sales fell 18.1% due to U.S. tariffs. The Rechargeable Battery segment posted a HK$41.6 million loss, attributed to heavy R&amp;D for Nickel-Zinc (NiZn) technology. <a href="https://www.tipranks.com/news/company-announcements/gold-peak-posts-higher-fy2026-profit-despite-margin-squeeze-and-tariff-headwinds">Read Source</a></li>
+<li><strong>GP Energy Tech Expansion:</strong> Management confirmed the opening of the first NiZn battery manufacturing facility in Dongguan, China, with mass production starting June 2026. A secondary plant in Malaysia is targeted for March 2027 to further the "China-Plus-One" strategy. <a href="https://www.minichart.com.sg/2026/06/24/gold-peak-technology-group-fy2026-audited-results-revenue-growth-dividend-business-review-and-outlook/">Read Source</a></li>
+<li><strong>FDK Financial Risk:</strong> In its 97th Fiscal Year report, <strong>FDK Corporation</strong> flagged impairment indicators for its Nickel-Metal Hydride (NiMH) battery business assets (valued at approx. ¥320 billion) due to declining profitability, though no loss was recognized this period. <a href="https://www.moomoo.com/news/post/71876972/audit-review-item-26-03-fdk-regarding-fdk-corporation-s">Read Source</a></li>
+<li><strong>Nanfu Battery Market Dominance:</strong> <strong>Nanfu Group</strong> was named China’s top battery brand with a valuation of RMB 34.569 billion. The company maintains an 80% share of China’s alkaline market and launched its "Junenghuan Gen 5" battery, claiming 333% capacity over national standards. <a href="https://www.163.com/dy/article/L07Q0MGH05119N2E.html">Read Source</a></li>
+</ul>
+<h3 id="marketexpansionlicensing">Market Expansion &amp; Licensing</h3>
+<ul>
+<li><strong>Panasonic Enters Robotaxi Market:</strong> <strong>Panasonic Energy</strong> secured a multi-year contract to supply 2170 cylindrical lithium-ion cells to <strong>Zoox</strong> (Amazon’s autonomous subsidiary) starting in 2026. This diversifies their high-capacity cell portfolio beyond the Tesla partnership. <a href="https://news.metal.com/newscontent/103639222-panasonic-energy-fournira-des-batteries-lithium-ion-pour-zoox">Read Source</a></li>
+<li><strong>Duracell Major Licensing Move:</strong> <strong>Duracell</strong> signed its largest regional licensing deal with <strong>Satya Intl</strong>, covering 23 Asian territories (including India, Australia, and Indonesia) and 36 African nations. The deal authorizes the manufacture of automotive and tubular batteries under the Duracell brand. <a href="https://www.autocarpro.in/news/duracell-signs-licensing-deal-with-satya-intl-124778">Read Source</a></li>
+<li><strong>Duracell Grid Services Trial:</strong> In partnership with <strong>EDF</strong>, <strong>Duracell Energy</strong> (via licensee Puredrive Energy) launched a three-month trial in England to coordinate 50 residential battery systems for local electricity flexibility markets. <a href="https://www.edfenergy.com/media-centre/edf-and-duracell-energy-launch-home-battery-trial-local-flexibility-markets">Read Source</a></li>
+</ul>
+<h3 id="operationalregulatoryrisks">Operational &amp; Regulatory Risks</h3>
+<ul>
+<li><strong>Panasonic India Shutdown Threat:</strong> <strong>Panasonic Energy India</strong> warned it may close its sole dry-cell plant in Madhya Pradesh. Chairman Akio Fujita stated that India’s Battery Waste Management Rules (BWMR) impose environmental compensation costs four times higher than industry profits. <a href="https://www.business-standard.com/companies/news/panasonic-energy-may-be-forced-to-shut-sole-india-battery-plant-cmd-fujita-126062401140_1.html">Read Source</a></li>
+<li><strong>Varta Restructuring Conflict:</strong> Swiss investor <strong>Allswiss</strong> has offered to acquire <strong>Varta AG’s</strong> EUR 298 million debt to prevent a breakup by London-based investment firms. Allswiss intends to prioritize Varta's sodium-ion strategy following the loss of major consumer electronics contracts. <a href="https://www.mainsights.io/ma-news/swiss-investor-allswiss-seeks-to-acquire-and-restructure-german-battery-maker-varta-amid-breakup-risk">Read Source</a></li>
+</ul>
+<h2 id="actionitems">Action Items</h2>
+<ul>
+<li><strong>Mitigate Americas Revenue Volatility:</strong> With <strong>GP's</strong> Americas revenue declining 18.1% due to U.S. tariffs, accelerate the transition of export-oriented production to the newly operational Ho Chi Minh City and planned Malaysia facilities to maintain price competitiveness in the North American primary battery market.</li>
+<li><strong>Monitor Regulatory Cost Contagion:</strong> Review the cost impact of the Battery Waste Management Rules (BWMR) on <strong>GP’s</strong> India-bound supply chain following <strong>Panasonic’s</strong> warning that compliance costs now exceed dry-cell manufacturing profits in that jurisdiction.</li>
+<li><strong>Assess NiZn Commercialization Timeline:</strong> Given the HK$41.6 million segment loss attributed to NiZn R&amp;D, management must ensure the June 2026 mass production launch at the Dongguan plant meets yield targets to offset the margin squeeze currently affecting the legacy rechargeable portfolio.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
