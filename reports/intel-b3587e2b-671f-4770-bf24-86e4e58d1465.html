@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Aug 16 - Aug 22, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">EXECUTIVE SUMMARY</h2>
+<p><strong>Panasonic</strong> is executing a major divestiture of its European power and battery control business, valued at approximately EUR 413 million, to refocus on high-growth sectors like AI. Simultaneously, <strong>Varta</strong> has entered insolvency under self-administration, signaling severe financial distress for the historic German manufacturer while it simultaneously pushes for EU-wide anti-dumping duties on Chinese alkaline batteries. These developments indicate a profound restructuring of the European battery supply chain, impacting both high-tech automotive components and the mass-market consumer cell landscape.</p>
+<h2 id="keyintelligence">KEY INTELLIGENCE</h2>
+<ul>
+<li><strong>Panasonic Industry</strong> to divest European power and battery control operations: The company has signed an agreement to transfer its manufacturing subsidiaries in Germany and Slovakia to Midas Atlantic Partners and <strong>The Najafi Companies</strong>. The transaction includes critical components such as Battery Disconnect Units (BDUs) and high-voltage DC-DC converters for the automotive and industrial sectors, with completion scheduled for February 2027. <a href="https://news.panasonic.com/uploads/tmg_block_page_image/file/40249/en260818-2-1.pdf">Read Source</a></li>
+<li><strong>Varta AG</strong> files for insolvency under self-administration: The German battery giant has officially entered a legal and financial restructuring process to stabilize operations following failed previous restructuring efforts. Management will retain control under the supervision of an administrator while actively seeking new investors to address significant financial liabilities. <a href="https://lideresdeplanta.news/varta-entra-en-insolvencia-senal-para-tu-cadena-de-suministro/">Read Source</a></li>
+<li><strong>Varta</strong> triggers EU anti-dumping probe into Chinese alkaline batteries: Following a complaint filed by <strong>Varta Consumer Batteries</strong>, the European Commission has launched an investigation into imports of non-rechargeable alkaline cells (AA, AAA, C, and D formats) from China. The investigation targets a sector where China currently provides 92% of EU imports, representing approximately 2.8 billion units annually. <a href="https://www.cargo-partner.com/news/eu-anti-dumping-measures-against-alkaline-batteries-from-china">Read Source</a></li>
+</ul>
+<h2 id="actionitems">ACTION ITEMS</h2>
+<ul>
+<li><strong>Monitor</strong> the potential for immediate supply chain disruptions and shifts in the competitive landscape for consumer batteries following <strong>Varta's</strong> insolvency filing and the resulting search for new investors.</li>
+<li><strong>Brief</strong> procurement and trade compliance teams on the European Commission's anti-dumping investigation, as potential duties on Chinese-made alkaline batteries could significantly inflate costs or limit supply for the European market.</li>
+<li><strong>Evaluate</strong> the impact of <strong>Panasonic’s</strong> exit from the European battery control unit market, specifically regarding the availability and pricing of Battery Disconnect Units and DC-DC converters as the assets transition to private equity ownership.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
