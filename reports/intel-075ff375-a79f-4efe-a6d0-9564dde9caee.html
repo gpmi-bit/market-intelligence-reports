@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Intelligence Briefing | Valued Client</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">Valued Client</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Oct 7 - Oct 7, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Intelligence Briefing</h1>
+            <div class="ai-content"><h2 id="headline">HEADLINE</h2>
+<p>Energizer Holdings reported a significant decline in quarterly net earnings despite a marginal increase in top-line revenue for the fiscal third quarter of 2026.</p>
+<h2 id="executivesummary">EXECUTIVE SUMMARY</h2>
+<p>Net sales for the quarter rose 1.2% to <strong>$734.1 million</strong> compared to the prior-year period. Profitability was pressured by a 39.3% increase in cost of products sold, resulting in a 29.8% decrease in gross profit and a 69.7% drop in pre-tax income. Basic EPS fell to <strong>$0.58</strong>, a 73.1% decline from <strong>$2.16</strong> in the prior-year quarter.</p>
+<h2 id="keymetrics">KEY METRICS</h2>
+<p>| Metric | This Quarter | Prior-Year Quarter | Change |
+| :--- | :--- | :--- | :--- |
+| Net Sales | $734.1 | $725.3 | 1.2% |
+| Gross Profit | $280.6 | $399.7 | -29.8% |
+| Pre-tax Income | $49.8 | $164.2 | -69.7% |
+| Net Earnings | $39.9 | $153.5 | -74.0% |
+| Basic EPS | $0.58 | $2.16 | -73.1% |</p>
+<h2 id="margins">MARGINS</h2>
+<ul>
+<li><strong>Gross Margin:</strong> 38.2% (vs. 55.1% in prior-year quarter)</li>
+<li><strong>Operating Margin:</strong> 13.9% (vs. 30.3% in prior-year quarter)</li>
+<li><strong>Net Margin:</strong> 5.4% (vs. 21.2% in prior-year quarter)</li>
+</ul>
+<h2 id="balancesheetcashflow">BALANCE SHEET &amp; CASH FLOW</h2>
+<ul>
+<li><strong>Cash and Equivalents:</strong> <strong>$173.4 million</strong>, down 26.6% from the prior fiscal year-end.</li>
+<li><strong>Inventories:</strong> <strong>$747.8 million</strong>, a decrease of 4.3% since the prior fiscal year-end.</li>
+<li><strong>Long-term Debt:</strong> <strong>$3,294.9 million</strong>, reduced by 3.3% from <strong>$3,407.9 million</strong> at fiscal year-end.</li>
+<li><strong>Shareholders Equity:</strong> <strong>$203.2 million</strong>, up from <strong>$173.2 million</strong> in the preceding quarter.</li>
+<li><strong>Year-to-Date Operating Cash Flow:</strong> <strong>$156.0 million</strong>, an increase of 82.2% compared to the prior-year period.</li>
+<li><strong>Capital Expenditures (YTD):</strong> <strong>$52.1 million</strong>, down 24.6% year-over-year.</li>
+<li><strong>Share Repurchases (YTD):</strong> <strong>$5.4 million</strong>, representing a 91.4% reduction from the <strong>$62.6 million</strong> repurchased in the prior-year period.</li>
+</ul>
+<h2 id="observations">OBSERVATIONS</h2>
+<ul>
+<li>Cost of products sold increased by <strong>$127.9 million</strong> (39.3%) year-over-year, significantly outpacing the 1.2% growth in net sales.</li>
+<li>Year-to-date operating cash flow improved by <strong>$70.4 million</strong> despite the sharp decline in net earnings during the same period.</li>
+<li>The company reduced research and development spending by 9.8% and advertising and promotion spending by 3.9% compared to the prior-year quarter.</li>
+<li>Interest expense remained relatively stable with a modest 1.8% increase to <strong>$39.7 million</strong>.</li>
+<li>Long-term debt represents approximately 73.8% of total assets as of June 30, 2026.</li>
+</ul>
+<p><a href="https://www.sec.gov/Archives/edgar/data/1632790/000163279026000076/0001632790-26-000076-index.htm">View SEC Filing</a></p></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
