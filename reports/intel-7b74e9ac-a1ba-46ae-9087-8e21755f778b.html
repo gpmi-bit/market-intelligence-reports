@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Battery Brand Global Weekly Report | GP Batteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #4f46e5; --bg: #0f172a; --surface: #ffffff; --text-main: #1e293b; --text-muted: #64748b; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); margin: 0; color: var(--text-main); line-height: 1.6; }
+        
+        .container { display: flex; flex-direction: column; min-height: 100vh; }
+
+        /* SIDEBAR (Top on Mobile, Left on Desktop) */
+        .sidebar { 
+            background: #0f172a; 
+            color: white; 
+            padding: 25px 20px 45px 20px; /* Extra bottom padding to compensate for content-area pull-up */
+            flex: 0 0 auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        .logo { font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 16px; color: #818cf8; text-transform: uppercase; }
+        
+        /* Metadata Layout */
+        .metadata-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Side-by-side on mobile to save height */
+            gap: 15px; 
+        }
+
+        .meta-item .label { 
+            font-size: 11px; /* Increased */
+            text-transform: uppercase; 
+            color: #94a3b8; 
+            display: block; 
+            margin-bottom: 2px; 
+            letter-spacing: 0.05em;
+        }
+
+        .meta-item .value { 
+            font-size: 15px; /* Increased to match main content feel */
+            font-weight: 600; 
+            color: #f1f5f9; 
+        }
+
+        /* CONTENT AREA */
+        .content-area { 
+            background: var(--surface); 
+            flex: 1; 
+            padding: 35px 20px; 
+            border-radius: 30px 30px 0 0; 
+            margin-top: -25px; /* Pull up to overlap sidebar background */
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans'; font-size: 28px; font-weight: 800; color: #0f172a; margin: 0 0 25px 0; line-height: 1.2; }
+
+        /* Desktop Adjustments */
+        @media (min-width: 1024px) { 
+            .container { flex-direction: row; } 
+            .sidebar { flex: 0 0 350px; padding: 40px; gap: 30px; height: 100vh; position: sticky; top: 0; }
+            .metadata-grid { grid-template-columns: 1fr; gap: 25px; }
+            .meta-item .value { font-size: 18px; }
+            .content-area { border-radius: 40px 0 0 40px; margin-top: 0; padding: 60px; margin-left: -20px; }
+        }
+
+        .ai-content h2 { font-size: 12px; text-transform: uppercase; color: var(--primary); background: #f5f3ff; padding: 6px 12px; border-radius: 6px; margin-top: 30px; display: inline-block; font-weight: 700; }
+        .ai-content li { background: #f8fafc; border: 1px solid #f1f5f9; padding: 20px; border-radius: 16px; margin-bottom: 15px; list-style: none; font-size: 16px; }
+        .ai-content a { display: block; text-align: center; padding: 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: var(--primary); text-decoration: none; font-weight: 700; margin-top: 12px; font-size: 14px; }
+        footer { margin-top: 50px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="sidebar">
+            <div class="logo">GP Intelligence</div>
+            <div class="metadata-grid">
+                <div class="meta-item"><span class="label">Organization</span><div class="value">GP Batteries</div></div>
+                <div class="meta-item"><span class="label">Analysis Period</span><div class="value">Nov 15 - Nov 21, 2026</div></div>
+            </div>
+        </header>
+        <main class="content-area">
+            <h1>Battery Brand Global Weekly Report</h1>
+            <div class="ai-content"><h2 id="executivesummary">EXECUTIVE SUMMARY</h2>
+<p>Gold Peak Technology Group reported a 12.1% revenue increase in its battery segment, driven by strong alkaline and coin-cell sales, though margins were pressured by rising operational costs and reduced export rebates. Energizer Holdings realized significant debt reduction and a 30% increase in adjusted earnings for fiscal 2026, supported by the completion of its "Project Momentum" cost-saving initiative. Panasonic Energy secured a long-term material supply agreement for U.S. battery production while reporting record quarterly profits fueled by North American EV and data center demand.</p>
+<h2 id="keyintelligence">KEY INTELLIGENCE</h2>
+<ul>
+<li><strong>Gold Peak (GP) Battery Business Performance:</strong> Interim results for the six months ended September 30, 2026, show battery revenue reached HK$2,837.6 million, a 12.1% year-over-year increase. Despite growth in cylindrical alkaline (17.8%) and coin-cell (24.7%) sales, segment profit fell to HK$137.0 million from HK$158.3 million due to shifting sales mixes and reduced Chinese VAT export rebates. <a href="https://www.goldpeak.com/wp-content/uploads/2026/11/20261119-Gold-Peak_Interim-e.pdf">Read Source</a></li>
+<li><strong>Energizer Fiscal 2026 Financial Recovery:</strong> Energizer Holdings reported that full-year free cash flow more than tripled to $228.6 million, facilitating $167.7 million in debt reduction. While fourth-quarter net sales fell 4.8% to $793.2 million, adjusted earnings per share rose 30.5% to $1.37, aided by the "Project Momentum" program which achieved $230 million in cumulative savings. <a href="https://www.prnewswire.com/news-releases/energizer-holdings-inc-announces-fiscal-2026-fourth-quarter-and-full-year-results-and-financial-outlook-for-fiscal-2027-302941421.html">Read Source</a></li>
+<li><strong>Regulatory and Geographic Risks for GP:</strong> Management identified potential European Union anti-dumping measures targeting cylindrical alkaline batteries as a primary market uncertainty. In response, the group is evaluating expanded production capacity outside of mainland China to mitigate tariff and regulatory risks. <a href="https://www.goldpeak.com/wp-content/uploads/2026/11/20261119-Gold-Peak_Interim-e.pdf">Read Source</a></li>
+<li><strong>Rayovac Valuation and Amortization:</strong> Energizer has transitioned the <strong>Rayovac</strong> trade name to a finite-lived intangible asset with a 30-year useful life, effective July 1, 2026. This accounting change follows a valuation that placed the brand's fair value at $350 million—only 4% above its carrying value—reflecting lower forecast demand and increased competition. <a href="https://www.sec.gov/Archives/edgar/data/1632790/000163279026000113/enr-20260930.htm">Read Source</a></li>
+<li><strong>Panasonic Material Offtake Agreement:</strong> Panasonic Energy signed a multiyear deal with Sila to purchase silicon-carbon anode materials produced in Washington state. The agreement, which could exceed $1 billion in value over time, aims to support Panasonic’s U.S.-based battery cell manufacturing for the electric vehicle market. <a href="https://www.silanano.com/press/press-releases/sila-inks-long-term-offtake-deal-with-panasonic-energy-to-power-domestic-battery-production">Read Source</a></li>
+<li><strong>European License Transition:</strong> Energizer confirmed the expiration of a brand license (previously identified as <strong>Panasonic</strong>) in Europe as of December 31, 2025. The company expects a $60 million non-recurrence in sales for fiscal 2027 as these customers are transitioned to Energizer’s legacy brands. <a href="https://www.prnewswire.com/news-releases/energizer-holdings-inc-announces-fiscal-2026-fourth-quarter-and-full-year-results-and-financial-outlook-for-fiscal-2027-302941421.html">Read Source</a></li>
+</ul>
+<h2 id="actionitems">ACTION ITEMS</h2>
+<ul>
+<li><strong>Monitor EU Regulatory Proceedings:</strong> Closely track the development of EU anti-dumping measures on cylindrical alkaline batteries. Management should accelerate the feasibility study for non-China production capacity to maintain competitive pricing in the European market. </li>
+<li><strong>Address Margin Compression:</strong> Analyze the specific drivers of the 110-basis-point decline in GP's battery segment gross margin. Prioritize cost-containment measures in logistics and staffing to offset the loss of Chinese VAT export rebates and rising operating expenses.</li>
+<li><strong>Benchmark Against Private-Label Trends:</strong> Evaluate regional promotional strategies in response to Energizer’s reported increase in consumer interest in private-label batteries. Ensure GP’s value-tier offerings (alkaline and coin-cell) are positioned to defend market share against both premium brand promotions and retailer-owned brands.</li>
+</ul></div>
+            <footer>CONFIDENTIAL • GP's Project Longan</footer>
+        </main>
+    </div>
+</body>
+</html>
